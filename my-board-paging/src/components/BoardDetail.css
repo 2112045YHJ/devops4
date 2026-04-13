@@ -1,0 +1,147 @@
+/* 전체 컨테이너 배경 */
+.detail-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+}
+
+/* 상세 카드 박스 */
+.detail-card {
+  width: 100%;
+  max-width: 700px;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+
+.detail-card h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #212529;
+  text-align: center;
+}
+
+/* 입력 폼 그룹 */
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  color: #495057;
+  margin-bottom: 8px;
+}
+
+/* 입력 필드 (input, textarea) */
+.detail-card input,
+.detail-card textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #fff;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+  box-sizing: border-box; /* 패딩 포함 크기 계산 */
+}
+
+.detail-card input:focus,
+.detail-card textarea:focus {
+  outline: none;
+  border-color: #4dabf7;
+  box-shadow: 0 0 0 4px rgba(77, 171, 247, 0.15);
+}
+
+.detail-card textarea {
+  height: 250px;
+  line-height: 1.6;
+  resize: none; /* 크기 조절 비활성화 */
+}
+
+/* 버튼 레이아웃 */
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.btn:hover {
+  filter: brightness(90%);
+}
+
+.btn-update {
+  background-color: #228be6;
+  color: white;
+}
+.btn-delete {
+  background-color: #fa5252;
+  color: white;
+}
+.btn-list {
+  background-color: #adb5bd;
+  color: white;
+}
+
+/* 첨부파일 목록 */
+.file-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.file-item a {
+  color: #228be6;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.file-item a:hover {
+  text-decoration: underline;
+}
+
+.btn-file-delete {
+  padding: 4px 10px;
+  font-size: 12px;
+  background-color: #fa5252;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  flex-shrink: 0;
+  margin-left: 12px;
+  transition: filter 0.2s;
+}
+
+.btn-file-delete:hover {
+  filter: brightness(90%);
+}

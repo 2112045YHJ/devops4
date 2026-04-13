@@ -1,0 +1,73 @@
+.write-page {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.write-card {
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.write-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.write-input,
+.write-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.write-textarea {
+  height: 300px;
+  resize: none;
+}
+
+.write-button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.write-button-group button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.btn-cancel {
+  background-color: #eee;
+  color: #666;
+}

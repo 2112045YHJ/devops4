@@ -1,0 +1,83 @@
+.list-container {
+  max-width: 1000px;
+  width: 95%;
+  padding: 40px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+}
+
+.list-title {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.list-total {
+  text-align: right;
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+
+.board-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+
+.board-table th {
+  background-color: #f8f9fa;
+  color: #555;
+  padding: 15px;
+  border-bottom: 2px solid #eee;
+  text-align: center;
+  font-weight: 600;
+}
+
+.board-table td {
+  color: #444;
+  padding: 15px;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+}
+
+.board-table tbody tr:hover {
+  background-color: #fcfcfc;
+  transition: background-color 0.2s;
+}
+
+.title-link {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.title-link:hover {
+  text-decoration: underline;
+  color: #4a90e2;
+}
+
+.btn-area {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-write {
+  padding: 12px 25px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.btn-write:active {
+  transform: scale(0.96);
+}
